@@ -1,0 +1,28 @@
+.regresar {
+  width: 3rem;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  position: relative;
+  border: 1px;
+}
+
+p {
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .logoamadeus {
+    width: 11rem;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    position: relative;
+    border: 1px;
+  }
+}

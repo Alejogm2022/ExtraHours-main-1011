@@ -1,0 +1,67 @@
+.page__header {
+  display: flex;
+  justify-content: space-between; /* Espacio entre el encabezado y otros elementos */
+  align-items: center;
+  padding: 1rem;
+  //background-color: #df0c0c; /* Fondo más claro para el encabezado */
+ // border-bottom: 2px solid #ccc; /* Línea divisoria */
+}
+
+.settings__container {
+  display: flex;
+  flex-direction: row; /* Alineación horizontal */
+  justify-content: space-between; /* Espacio entre artículos */
+  gap: 1.5rem; /* Espacio entre los elementos */
+  padding: 1rem;
+  max-width: 1200px; /* Ancho máximo para el contenedor */
+  margin: 0 auto; /* Centrando el contenedor */
+}
+
+.settings__article {
+  flex: 1; /* Ocupa el 50% del espacio */
+  max-width: 600px; /* Ancho máximo para el artículo */
+  font-size: 0.95rem; /* Tamaño de fuente ligeramente mayor */
+  color: black; /* Color de texto más oscuro */
+  background-color: #ffffff; /* Fondo blanco para los artículos */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 1rem; /* Espaciado interno */
+}
+
+.settings__article ol {
+  margin-left: 1.5rem; /* Margen izquierdo para listas ordenadas */
+}
+
+.settings__form {
+  flex: 1; /* Ocupa el 50% del espacio */
+  max-width: 600px; /* Ancho máximo para el formulario */
+  padding: 1rem; /* Espaciado interno */
+  background-color: #f9f9f9; /* Fondo ligeramente gris para el formulario */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+
+  /* Reducir espacio vertical entre elementos del formulario */
+  div {
+    margin-bottom: 0.5rem; /* Espacio vertical reducido entre elementos */
+  }
+}
+
+/* Añadir un estilo para botones */
+.settings__form button {
+  background-color: #007bff; /* Color del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 0.5rem 1rem; /* Espaciado interno del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.settings__form button:hover {
+  background-color: #0056b3; /* Color del botón al pasar el mouse */
+}
+
+article {
+  color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
